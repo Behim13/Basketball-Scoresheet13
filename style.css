@@ -1,0 +1,63 @@
+body{
+    background-color: #9CA3AF;
+}
+
+@font-face {
+    font-family: score;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+.container{
+    border: 1px solid black;
+    width: 600px;
+    margin: 50px auto;
+    background-color: #1B244A;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.teams{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.oneScore{
+    width: 150px;
+    background-color: black;
+    text-align: center;
+    color: #F94F6D;
+    font-size: 50px;
+    font-family: score, sans-serif;
+}
+
+.commands{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0 50px 0;
+}
+
+.oneCommands{
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 45px;
+    background-color: #1B244A;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: score, sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2b3a7a;
+}

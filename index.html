@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Basketball Scoresheet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="teams">
+        <h1>HOME</h1>
+        <h1>GUEST</h1>
+      </div>
+
+      <div class="scores">
+        <div class="oneScore">
+          <h1 id="home-score">0</h1>
+        </div>
+        <div class="oneScore">
+          <h1 id="guest-score">0</h1>
+        </div>
+      </div>
+      <div class="commands">
+        <div class="oneCommands">
+          <button onclick="plusOneHome()">
+            <h3>+1</h3>
+          </button>
+          <button onclick="plusTwoHome()">
+            <h3>+2</h3>
+          </button>
+          <button onclick="plusThreeHome()">
+            <h3>+3</h3>
+          </button>
+        </div>
+        <div class="oneCommands">
+          <button onclick="plusOneGuest()">
+            <h3>+1</h3>
+          </button>
+          <button onclick="plusTwoGuest()">
+            <h3>+2</h3>
+          </button>
+          <button onclick="plusThreeGuest()">
+            <h3>+3</h3>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
